@@ -290,6 +290,7 @@ def plot_zeros_poles(z, p):
     )
     fig.show()
 
+
 def synthesize(f0, phi, Ak, t):
   y = 0
   for k in range(1, len(Ak) + 1):
